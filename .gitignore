@@ -1,0 +1,21 @@
+# Local terraform directory
+.terraform/
+
+# Local state files (though we use S3, local ones can appear during testing)
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+
+# Credentials and sensitive files
+.auth/
+credentials
+*.pem
+*.pub
+
+# Terraform crash logs
+crash.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
